@@ -1,208 +1,173 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en-US" data-lt-installed="true"><head><script id="www-widgetapi-script" src="https://web.archive.org/web/20140422020859js_/http://blog.thedeepwebtour.com/web/20140422020701/http://s.ytimg.com/yts/jsbin/www-widgetapi-vflJYItO-.js" async=""></script><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script><style type="text/css" id="operaUserStyle">
+  video {
+    filter: -opera-shader(url(data:text/plain;base64,Ly8gaHR0cHM6Ly9naXRodWIuY29tL0dQVU9wZW4tRWZmZWN0cy9GaWRlbGl0eUZYLUNBUwovLyB2MwoKdW5pZm9ybSBzaGFkZXIgaUNodW5rOwp1bmlmb3JtIGZsb2F0MiBpQ2h1bmtTaXplOwp1bmlmb3JtIGZsb2F0MiBpTW91c2U7CnVuaWZvcm0gZmxvYXQgaUFyZ3NbMV07Cgpjb25zdCBmbG9hdCBFUFNJT04gPSAwLjE7CmNvbnN0IGZsb2F0IFZfTUlOID0gMDsKY29uc3QgZmxvYXQgVl9MT1cgPSAwLjI1Owpjb25zdCBmbG9hdCBWX01FRCA9IDAuNTsKY29uc3QgZmxvYXQgVl9ISUdIID0gMC43NTsKY29uc3QgZmxvYXQgVl9NQVggPSAxOwoKY29uc3QgZmxvYXQgVEhSRVNIT0xEX0FSRUEgPSA4MDAgKiA2MDA7CmNvbnN0IGZsb2F0IE1JTl9BUkVBID0gNDAwICogMTAwOwpjb25zdCBmbG9hdCBNSU5fU1RSSVAgPSAyMDsKY29uc3QgZmxvYXQgTUFSR0lOID0gMTsKCmZsb2F0MyBwaXhlbChpbnQgeCwgaW50IHksIGZsb2F0MiB4eSkgewogICAgcmV0dXJuIGlDaHVuay5ldmFsKHh5ICsgZmxvYXQyKHgsIHkpKS5yZ2I7Cn0KCmZsb2F0MyBzaGFycGVuKGZsb2F0MiB4eSkgewogICAgZmxvYXQzIGYgPQogICAgICAgIHBpeGVsKC0xLCAtMSwgeHkpICogIDEgKwogICAgICAgIHBpeGVsKCAwLCAtMSwgeHkpICogLTEgKwogICAgICAgIHBpeGVsKCAxLCAtMSwgeHkpICogIDEgKwoKICAgICAgICBwaXhlbCgtMSwgMCwgeHkpICogLTEgICsKICAgICAgICBwaXhlbCggMCwgMCwgeHkpICogLTEgICsKICAgICAgICBwaXhlbCggMSwgMCwgeHkpICogLTEgICsKCiAgICAgICAgcGl4ZWwoLTEsIDEsIHh5KSAqIDEgICArCiAgICAgICAgcGl4ZWwoIDAsIDEsIHh5KSAqIC0xICArCiAgICAgICAgcGl4ZWwoIDEsIDEsIHh5KSAqIDE7CiAgICByZXR1cm4gZiAvIC0xOwp9CgpmbG9hdDQgUkdYMihmbG9hdDIgeHkpIHsKICAgIGZsb2F0NCBjb2xvciA9IGlDaHVuay5ldmFsKHh5KTsKCiAgICBpZiAoaUNodW5rU2l6ZS54ICogaUNodW5rU2l6ZS55IDwgTUlOX0FSRUEpIHsKICAgICAgICByZXR1cm4gY29sb3I7CiAgICB9CgogICAgaWYgKGlDaHVua1NpemUueSA8IE1JTl9TVFJJUCB8fCBpQ2h1bmtTaXplLnggPCBNSU5fU1RSSVApIHsKICAgICAgICByZXR1cm4gY29sb3I7CiAgICB9CgogICAgaWYgKHh5LnggPCBNQVJHSU4gfHwgeHkueCA+IChpQ2h1bmtTaXplLnggLSBNQVJHSU4pIHx8CiAgICAgICAgeHkueSA8IE1BUkdJTiB8fCB4eS55ID4gKGlDaHVua1NpemUueSAtIE1BUkdJTikpIHsKICAgICAgICByZXR1cm4gY29sb3I7CiAgICB9CgogICAgcmV0dXJuIGZsb2F0NChzaGFycGVuKHh5KSwgMSk7Cn0KCmZsb2F0IG1pbjMoZmxvYXQgeCwgZmxvYXQgeSwgZmxvYXQgeikgewogICAgcmV0dXJuIG1pbih4LCBtaW4oeSwgeikpOwp9CgpmbG9hdCBtYXgzKGZsb2F0IHgsIGZsb2F0IHksIGZsb2F0IHopIHsKICAgIHJldHVybiBtYXgoeCwgbWF4KHksIHopKTsKfQoKZmxvYXQgcmNwKGZsb2F0IHYpIHsKICAgIHJldHVybiAxIC8gdjsKfQoKZmxvYXQzIFJHWDMoZmxvYXQyIHh5LCBmbG9hdCBzdHJlbmd0aCkgewogICAgZmxvYXQzIGEgPSBwaXhlbCgtMSwgLTEsIHh5KTsKICAgIGZsb2F0MyBiID0gcGl4ZWwoIDAsIC0xLCB4eSk7CiAgICBmbG9hdDMgYyA9IHBpeGVsKCAxLCAtMSwgeHkpOwoKICAgIGZsb2F0MyBkID0gcGl4ZWwoLTEsIDAsIHh5KTsKICAgIGZsb2F0MyBlID0gcGl4ZWwoIDAsIDAsIHh5KTsKICAgIGZsb2F0MyBmID0gcGl4ZWwoIDEsIDAsIHh5KTsKCiAgICBmbG9hdDMgZyA9IHBpeGVsKC0xLCAxLCB4eSk7CiAgICBmbG9hdDMgaCA9IHBpeGVsKCAwLCAxLCB4eSk7CiAgICBmbG9hdDMgaSA9IHBpeGVsKCAxLCAxLCB4eSk7CgogICAgZmxvYXQgbW5SID0gbWluMyhtaW4zKGQuciwgZS5yLCBmLnIpLCBiLnIsIGgucik7CiAgICBmbG9hdCBtbkcgPSBtaW4zKG1pbjMoZC5nLCBlLmcsIGYuZyksIGIuZywgaC5nKTsKICAgIGZsb2F0IG1uQiA9IG1pbjMobWluMyhkLmIsIGUuYiwgZi5iKSwgYi5iLCBoLmIpOwoKICAgIGZsb2F0IG1uUjIgPSBtaW4zKG1pbjMobW5SLCBhLnIsIGMuciksIGcuciwgaS5yKTsKICAgIGZsb2F0IG1uRzIgPSBtaW4zKG1pbjMobW5HLCBhLmcsIGMuZyksIGcuZywgaS5nKTsKICAgIGZsb2F0IG1uQjIgPSBtaW4zKG1pbjMobW5CLCBhLmIsIGMuYiksIGcuYiwgaS5iKTsKCiAgICBtblIgPSBtblIgKyBtblIyOwogICAgbW5HID0gbW5HICsgbW5HMjsKICAgIG1uQiA9IG1uQiArIG1uQjI7CgogICAgZmxvYXQgbXhSID0gbWF4MyhtYXgzKGQuciwgZS5yLCBmLnIpLCBiLnIsIGgucik7CiAgICBmbG9hdCBteEcgPSBtYXgzKG1heDMoZC5nLCBlLmcsIGYuZyksIGIuZywgaC5nKTsKICAgIGZsb2F0IG14QiA9IG1heDMobWF4MyhkLmIsIGUuYiwgZi5iKSwgYi5iLCBoLmIpOwoKICAgIGZsb2F0IG14UjIgPSBtYXgzKG1heDMobXhSLCBhLnIsIGMuciksIGcuciwgaS5yKTsKICAgIGZsb2F0IG14RzIgPSBtYXgzKG1heDMobXhHLCBhLmcsIGMuZyksIGcuZywgaS5nKTsKICAgIGZsb2F0IG14QjIgPSBtYXgzKG1heDMobXhCLCBhLmIsIGMuYiksIGcuYiwgaS5iKTsKCiAgICBteFIgPSBteFIgKyBteFIyOwogICAgbXhHID0gbXhHICsgbXhHMjsKICAgIG14QiA9IG14QiArIG14QjI7CgogICAgZmxvYXQgcmNwTVIgPSByY3AobXhSKTsKICAgIGZsb2F0IHJjcE1HID0gcmNwKG14Ryk7CiAgICBmbG9hdCByY3BNQiA9IHJjcChteEIpOwoKICAgIGZsb2F0IGFtcFIgPSBzYXR1cmF0ZShtaW4obW5SLCAyIC0gbXhSKSAqIHJjcE1SKTsKICAgIGZsb2F0IGFtcEcgPSBzYXR1cmF0ZShtaW4obW5HLCAyIC0gbXhHKSAqIHJjcE1HKTsKICAgIGZsb2F0IGFtcEIgPSBzYXR1cmF0ZShtaW4obW5CLCAyIC0gbXhCKSAqIHJjcE1CKTsKCiAgICBhbXBSID0gc3FydChhbXBSKTsKICAgIGFtcEcgPSBzcXJ0KGFtcEcpOwogICAgYW1wQiA9IHNxcnQoYW1wQik7CgogICAgZmxvYXQgcGVhayA9IC1yY3AobWl4KDgsIDUsIHN0cmVuZ3RoKSk7CgogICAgZmxvYXQgd1IgPSBhbXBSICogcGVhazsKICAgIGZsb2F0IHdHID0gYW1wRyAqIHBlYWs7CiAgICBmbG9hdCB3QiA9IGFtcEIgKiBwZWFrOwoKICAgIGZsb2F0IHJjcFdlaWdodFIgPSByY3AoMSArIDQgKiB3Uik7CiAgICBmbG9hdCByY3BXZWlnaHRHID0gcmNwKDEgKyA0ICogd0cpOwogICAgZmxvYXQgcmNwV2VpZ2h0QiA9IHJjcCgxICsgNCAqIHdCKTsKCiAgICByZXR1cm4gZmxvYXQzKAogICAgICAgIHNhdHVyYXRlKChiLnIgKiB3UiArIGQuciAqIHdSICsgZi5yICogd1IgKyBoLnIgKiB3UiArIGUucikgKiByY3BXZWlnaHRSKSwKICAgICAgICBzYXR1cmF0ZSgoYi5nICogd0cgKyBkLmcgKiB3RyArIGYuZyAqIHdHICsgaC5nICogd0cgKyBlLmcpICogcmNwV2VpZ2h0RyksCiAgICAgICAgc2F0dXJhdGUoKGIuYiAqIHdCICsgZC5iICogd0IgKyBmLmIgKiB3QiArIGguYiAqIHdCICsgZS5iKSAqIHJjcFdlaWdodEIpKTsKfQoKCmZsb2F0NCBtYWluKGZsb2F0MiB4eSkgewoKICAgIGZsb2F0NCBvcmlnaW5hbENvbG9yID0gaUNodW5rLmV2YWwoeHkpOwogICAgaWYgKG9yaWdpbmFsQ29sb3IuYSA8IDEpIHsKICAgICAgICByZXR1cm4gaUNodW5rLmV2YWwoeHkpOwogICAgfQoKICAgIGZsb2F0IGludGVuc2l0eSA9IGlBcmdzWzBdOwogICAgZmxvYXQgc3RyZW5ndGggPSAwOwogICAgZmxvYXQzIGNvbG9yOwoKICAgIGlmIChpbnRlbnNpdHkgPCBWX01JTiArIEVQU0lPTikgewogICAgICAgIHN0cmVuZ3RoID0gMC4xMDsKICAgICAgICBjb2xvciA9IFJHWDMoeHksIHN0cmVuZ3RoKTsKCiAgICB9IGVsc2UgaWYgKGludGVuc2l0eSA+IFZfTE9XIC0gRVBTSU9OICYmIGludGVuc2l0eSA8IFZfTE9XICsgRVBTSU9OKSB7CiAgICAgICAgc3RyZW5ndGggPSAwLjMzOwogICAgICAgIGNvbG9yID0gUkdYMyh4eSwgc3RyZW5ndGgpOwoKICAgIH0gZWxzZSBpZiAoaW50ZW5zaXR5ID4gVl9NRUQgLSBFUFNJT04gJiYgaW50ZW5zaXR5IDwgVl9NRUQgKyBFUFNJT04pIHsKICAgICAgICBzdHJlbmd0aCA9IDAuNTsKICAgICAgICBjb2xvciA9IFJHWDMoeHksIHN0cmVuZ3RoKTsKCiAgICB9IGVsc2UgaWYgKGludGVuc2l0eSA+IFZfSElHSCAtIEVQU0lPTiAmJiBpbnRlbnNpdHkgPCBWX0hJR0ggKyBFUFNJT04pIHsKICAgICAgICBzdHJlbmd0aCA9IDAuOTk7CiAgICAgICAgY29sb3IgPSBSR1gzKHh5LCBzdHJlbmd0aCk7CgogICAgfSBlbHNlIGlmIChpbnRlbnNpdHkgPiBWX01BWCAtIEVQU0lPTikgewogICAgICAgIHN0cmVuZ3RoID0gMTsKICAgICAgICBjb2xvciA9IFJHWDIoeHkpLnJnYjsKICAgIH0KCiAgICByZXR1cm4gZmxvYXQ0KGNvbG9yLCBvcmlnaW5hbENvbG9yLmEpOwp9) -opera-args(1.00 255 255 255));
+  }
+</style>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app223.us.archive.org';v.server_ms=244;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://blog.thedeepwebtour.com/","20140422020859","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1398132539");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=S1zqJCYt">
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=qtvMKcIJ">
+<!-- End Wayback Rewrite JS Include -->
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SÜGAR COAT RADIO</title>
-    <link rel="stylesheet" href="stylesheet.css">
-
-            <link rel="preload" as="image" href="photos/testing/IMG_6656.jpg">
-
-    <style>
-        :root {
-            --background-color: #738678
-        }
-    </style>
-
-    <script>
-        /* The script for calculating the color contrast was taken from
-        https://gomakethings.com/dynamically-changing-the-text-color-based-on-background-color-contrast-with-vanilla-js/ */
-        var accentColor = getComputedStyle(document.documentElement).getPropertyValue('--background-color');
-        accentColor = accentColor.trim().slice(1);
-        var r = parseInt(accentColor.substr(0, 2), 16);
-        var g = parseInt(accentColor.substr(2, 2), 16);
-        var b = parseInt(accentColor.substr(4, 2), 16);
-        var yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
-        var textColor = (yiq >= 128) ? 'dark' : 'light';
-
-        document.documentElement.className = `has-${textColor}-text`;
-    </script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap" rel="stylesheet">
-
-    <meta name="description" content="RADIODADA">
-    <link rel="icon" href="photos/nala/IMG_20240315_224524.jpg" type="image/jpg">
-    <link rel="canonical" href="https://www.lrnjulie.com/">
-    <meta name="referrer" content="no-referrer-when-downgrade">
-    
-    <meta property="og:site_name" content="lrnjulie">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="lrnjulie">
-    <meta property="og:description" content="RADIODADA">
-    <meta property="og:url" content="https://www.lrnjulie.com/">
-    <meta property="og:image" content="https://www.lrnjulie.com/content/images/size/w1200/2024/02/IMG_4429-3.jpg">
-    <meta property="article:publisher" content="https://www.facebook.com/www.youtube.com/lrnjulie">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="lrnjulie">
-    <meta name="twitter:description" content="Lauren Kim">
-    <meta name="twitter:url" content="https://www.lrnjulie.com/">
-    <meta name="twitter:image" content="https://www.lrnjulie.com/content/images/size/w1200/2024/02/IMG_4429-3.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="800">
-    
-    <script type="application/ld+json">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>The Deep Web Tour Blog</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://blog.thedeepwebtour.com/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="http://blog.thedeepwebtour.com/wp-content/themes/deepwebtour/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<script src="https://web.archive.org/web/20140422020859js_/https://www.youtube.com/iframe_api" type="text/javascript"></script>
+<link href="https://web.archive.org/web/20140422020859cs_/http://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+document.createElement('video');document.createElement('audio');document.createElement('track');
+window.players = {};
+function enableYoutubeWithID(divName,id)
 {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "publisher": {
-        "@type": "Organization",
-        "name": "lrnjulie",
-        "url": "https://www.lrnjulie.com/",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.lrnjulie.com/content/images/2024/01/Untitled_Artwork-2-1.png"
-        }
-    },
-    "url": "https://www.lrnjulie.com/",
-    "image": {
-        "@type": "ImageObject",
-        "url": "https://www.lrnjulie.com/content/images/size/w1200/2024/02/IMG_4429-3.jpg",
-        "width": 1200,
-        "height": 800
-    },
-    "mainEntityOfPage": "https://www.lrnjulie.com/",
-    "description": "SÜGAR COAT"
+	var delay=0;
+	if(typeof YT === undefined){delay=20;}
+	function A(){
+	new YT.Player(divName, {
+    height: '280',
+    width: '500',
+	playerVars: {'controls':0,'showinfo':0,'disablekb':1,'modestbranding':1,'rel':0,'enablejsapi':1,'autoplay':1},
+    videoId: id,
+    events: {
+      'onReady': function(e){window.players[divName]=e.target;e.target.pauseVideo();}
+    }
+	});}
+	if(delay>0){setTimeout(function(){enableYoutubeWithID(divName,id)},delay);}
+	else{A();}
 }
-    </script>
+</script>
 
-    <meta name="generator" content="Ghost 5.79">
-    <link rel="alternate" type="application/rss+xml" title="lrnjulie" href="https://www.lrnjulie.com/rss/">
-    
-    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/sodo-search.min.js" data-key="1254d8fff6d5aaef7433aea12f" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/main.css" data-sodo-search="https://lrnjulie.ghost.io/" crossorigin="anonymous"></script>
-    
-    <link href="https://www.lrnjulie.com/webmentions/receive/" rel="webmention">
-    <script defer src="/public/cards.min.js?v=a8a51f4fed"></script><style>:root {--ghost-accent-color: #354f94;}</style>
-    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=a8a51f4fed">
-</head>
+<link rel="alternate" type="application/rss+xml" title="The Deep Web Tour Blog » Feed" href="https://web.archive.org/web/20140422020859/http://blog.thedeepwebtour.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="The Deep Web Tour Blog » Comments Feed" href="https://web.archive.org/web/20140422020859/http://blog.thedeepwebtour.com/comments/feed/">
+<link rel="stylesheet" id="full-frame-style-css" href="https://web.archive.org/web/20140422020859cs_/http://blog.thedeepwebtour.com/wp-content/themes/deepwebtour/style.css?ver=3.8.2" type="text/css" media="all">
+<script type="text/javascript" src="https://web.archive.org/web/20140422020859js_/http://blog.thedeepwebtour.com/wp-includes/js/jquery/jquery.js?ver=1.10.2"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20140422020859js_/http://blog.thedeepwebtour.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.thedeepwebtour.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.thedeepwebtour.com/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 3.8.2">
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #bfbfbf; }
+</style>
+<style type="text/css"></style></head>
 
-<body class="home-template is-font-serif">
-<div class="gh-site">
+<body class="home blog custom-background has-header-image"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr;">
+</div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20140422020859/http://blog.thedeepwebtour.com/</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://blog.thedeepwebtour.com/","20140422020859",1996,"https://web-static.archive.org/_static/",["https://web-static.archive.org/_static/css/banner-styles.css?v=S1zqJCYt","https://web-static.archive.org/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header" role="banner" style="background-image:url(https://web.archive.org/web/20140422020859im_/http://boldbucksaw-deepwest.azurewebsites.net/wp-content/uploads/2014/04/cropped-BG1.jpg);height:787px;">
+		<div id="anchor" class="site-nav">
+			<nav role="navigation" class="site-navigation main-navigation block">
+									<div id="updownnav">
+						<span id="up" class="scroll">«</span>
+						<span id="down" class="scroll">»</span>
+					</div>
+							</nav><!-- .site-navigation .main-navigation -->
+		</div><!-- .site-intro -->
+		<div id="arrowContainer">
+			<img id="arrow" src="https://web.archive.org/web/20140422020859im_/http://boldbucksaw-deepwest.azurewebsites.net/wp-content/uploads/2014/04/Arrow.png">
+		</div>
+	</header><!-- #masthead .site-header -->
+<div id="primary" class="content-area">
 
-            
-<header id="gh-head" class="gh-head gh-outer is-head-middle-logo">
-    <div class="gh-head-inner gh-inner">
-        <div class="gh-head-brand">
-            <div class="gh-head-brand-wrapper">
-                <a class="gh-head-logo" href="index.html">
-                        <img src="photos/nala/IMG_20240315_224524.jpg" alt="NALA">
-                </a>
-            </div>
-            <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search><svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-    <path d="M17.5 17.5L12.5 12.5L17.5 17.5ZM14.1667 8.33333C14.1667 9.09938 14.0158 9.85792 13.7226 10.5657C13.4295 11.2734 12.9998 11.9164 12.4581 12.4581C11.9164 12.9998 11.2734 13.4295 10.5657 13.7226C9.85792 14.0158 9.09938 14.1667 8.33333 14.1667C7.56729 14.1667 6.80875 14.0158 6.10101 13.7226C5.39328 13.4295 4.75022 12.9998 4.20854 12.4581C3.66687 11.9164 3.23719 11.2734 2.94404 10.5657C2.65088 9.85792 2.5 9.09938 2.5 8.33333C2.5 6.78624 3.11458 5.30251 4.20854 4.20854C5.30251 3.11458 6.78624 2.5 8.33333 2.5C9.88043 2.5 11.3642 3.11458 12.4581 4.20854C13.5521 5.30251 14.1667 6.78624 14.1667 8.33333Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-</svg>
-</button>
-            <button class="gh-burger"></button>
-        </div>
+	
+	<div id="primary-inner" class="content-area-inner">
 
-        <nav class="gh-head-menu">
-            <ul class="nav">
-    <li class="nav-home nav-current"><a href="index.html">Home</a></li>
-    <li class="nav-about"><a href="about.html">About Us</a></li>
-    <li class="nav-photos"><a href="coolshit.html">Cool Shit</a></li>
-    <li class="nav-art"><a href="radio.html">Radio ♫</a></li>
-</ul>
+		
+			
+<article id="post-139" style="background-image: url(https://web.archive.org/web/20140422020859im_/http://blog.thedeepwebtour.com/wp-content/uploads/2014/04/Orange-1024x697.png);" class="post-139 post type-post status-publish format-image hentry category-center category-uncategorized  has-featured-image">
+        <div class="entry-inner">
+    	<header class="entry-header">
+    		<h1 class="entry-title"><a href="https://web.archive.org/web/20140422020859/http://blog.thedeepwebtour.com/p/139/" title="Permalink to Orange" rel="bookmark">
+    			                Orange                    		</a></h1>
+            <div class="entry-meta">
+                <a href="https://web.archive.org/web/20140422020859/http://blog.thedeepwebtour.com/p/139/" title="12:36 am" rel="bookmark"><time class="entry-date" datetime="2014-04-02T00:36:30+00:00" pubdate="">April 2, 2014</time></a><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://web.archive.org/web/20140422020859/http://blog.thedeepwebtour.com/p/author/gqyypyuir9/" title="View all posts by GqYYPYUIr9" rel="author">GqYYPYUIr9</a></span></span>            </div><!-- .entry-meta -->
+    	</header>
+    </div><!-- .entry-inner -->
+</article><!-- #post-139 -->
+			
+			
+<article id="post-90" class="post-90 post type-post status-publish format-standard hentry category-uncategorized text-left">
+        <div class="entry-inner">
+        <header class="entry-header">
+            <h1 class="entry-title"></h1>
+        </header><!-- .entry-header -->
 
-        </nav>
-
-        <div class="gh-head-actions">
-                    <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search><svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-    <path d="M17.5 17.5L12.5 12.5L17.5 17.5ZM14.1667 8.33333C14.1667 9.09938 14.0158 9.85792 13.7226 10.5657C13.4295 11.2734 12.9998 11.9164 12.4581 12.4581C11.9164 12.9998 11.2734 13.4295 10.5657 13.7226C9.85792 14.0158 9.09938 14.1667 8.33333 14.1667C7.56729 14.1667 6.80875 14.0158 6.10101 13.7226C5.39328 13.4295 4.75022 12.9998 4.20854 12.4581C3.66687 11.9164 3.23719 11.2734 2.94404 10.5657C2.65088 9.85792 2.5 9.09938 2.5 8.33333C2.5 6.78624 3.11458 5.30251 4.20854 4.20854C5.30251 3.11458 6.78624 2.5 8.33333 2.5C9.88043 2.5 11.3642 3.11458 12.4581 4.20854C13.5521 5.30251 14.1667 6.78624 14.1667 8.33333Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-</svg>
-</button>
-        </div>
-    </div>
-</header>
-
-    
-<main class="gh-main">
-
-        
-    <section class="gh-header gh-outer has-background-image">
-    <div class="gh-header-inner gh-inner">
-
-                <img class="gh-header-image" src="photos/testing/IMG_6656.jpg" alt="sun">
-
-        <div class="gh-header-content">
-                <h1 class="gh-header-primary">SUGAR COAT</h1>
-        </div>
-
-    </div>
-</section>
-    
-<div class="gh-list grid magazine gh-outer" data-column="">
-    <div class="gh-list-inner gh-inner">
-
-
-
-            <div class="gh-list-feed">
-                            <article class="gh-list-item post">
-    <a class="gh-list-item-inner" href="/welcome-to-my-website/">
-            <figure class="gh-list-item-image">
-                <img
-                    srcset="/content/images/size/w300/2024/02/CCF02032024-1-1.png 300w,
-                            /content/images/size/w720/2024/02/CCF02032024-1-1.png 720w,
-                            /content/images/size/w960/2024/02/CCF02032024-1-1.png 960w,
-                            /content/images/size/w1200/2024/02/CCF02032024-1-1.png 1200w,
-                            /content/images/size/w2000/2024/02/CCF02032024-1-1.png 2000w"
-                    sizes="(max-width: 1200px) 100vw, 1200px"
-                    src="/content/images/size/w720/2024/02/CCF02032024-1-1.png"
-                    alt="W e b s i t e"
-                >
-            </figure>
-        <div class="gh-list-item-content">
-
-            <h3 class="gh-list-item-title">W e b s i t e</h3>
-
-                <p class="gh-list-item-excerpt">“Live! Live the wonderful life that is in you! Let nothing be lost upon you. Be always searching for new sensations. Be afraid of nothing.”― Oscar Wilde</p>
-
-
-        </div>
-    </a>
-</article>            </div>
-
-    </div>
+        <div class="entry-content">
+            <p class="p1"><span style="font-family: 'Courier New', monospace; line-height: 1.5em;">the DEEP WEB TOUR started.</span></p>
+<div style="font-family: 'Courier New', monospace;">
+<p class="p2">oakland was hard&nbsp;because we didn’t play. &nbsp;which was weird. &nbsp;people were mad. &nbsp;but then someone got married, rather engaged, outside so people got happy again and forgave. &nbsp;it was the computer’s&nbsp;fault tho.</p>
+<p>we talked about getting a tour pet. &nbsp;stefan is&nbsp;unofficially the tour pet.</p>
+<p>it’s very cool to see people use the DEEP WEB app.&nbsp;people draw dicks and swastikas.</p>
+<p>in santa barbara, we got to play outside. &nbsp;i had a burrito for breakfast that morning. it was fun cause fam and i wore backpacks to blend in to the crowd on campus to get there. &nbsp;someone said&nbsp;“that nigga think he childish gambino”. i did think that.</p>
+<p>when we get to stop at a hotel, &nbsp;we call down and tell the concierge to check on our children at 9pm because “we’re going out to a cocktail party and they should be in bed by that time”. and when they go up there, steve and swank (two grown men who are probably smoking blunts and listening to&nbsp;young scooter) are up there. the reaction is always enjoyable. &nbsp;we’re trying to find an older white couple to come downstairs and tell the concierge for us, to really sell it. but we haven’t found someone willing to yet.</p>
+<p>&nbsp;</p>
+<p>“you’re gonna miss every moment of this…of everything.”</p>
+<p>sometimes i feel like i’m already gone/ahead and i’m just vividly remembering everything that’s happening in the moment.  fur real. sometimes everything feels too familiar to be just happening for the first time. the shows feel like that sometimes. you can’t understand something totally and enjoy it at the same time, i think. but it’s fun to not know all of it. &nbsp;everybody wants some magic. &nbsp;something they can’t quite figure out.</p>
+<p>someone put&nbsp;girl scout cookies in the freezer. hot damn.</p>
+<p>&nbsp;</p>
+<p><b>UNOFFICIAL BUS PLAYLIST</b></p>
+<p class="p2">nothin important than money – young scooter<br>
+fall in love – phantagram<br>
+this song i’ve been working on when im given a moment – me<br>
+what you won’t do for love – bobby caldwell<br>
+(the second half of) lost queen – pharrell<br>
+stranger in moscow – tame impala<br>
+this song she hasn’t released yet, but it’s really good -&nbsp;jean deaux</p>
 </div>
+        </div><!-- .entry-content -->
+    </div><!-- .entry-inner -->
+</article><!-- #post-90 -->
+		
+		
+	</div><!-- #primary-inner .content-area-inner -->
+
+		
+	
+</div><!-- #primary .content-area -->
 
 
-    
-</main>
+	<footer id="colophon" class="site-footer" role="contentinfo">
+				<div id="footer-widgets">
+			<a href="https://web.archive.org/web/20140422020859/http://wordpress.com/?ref=deepwebtourblog"><img id="first" class="wplogo-footer" src="https://web.archive.org/web/20140422020859im_/http://boldbucksaw-deepwest.azurewebsites.net/wp-content/uploads/2014/04/WPCOM-logo1.png"></a>
 
-    
-<footer class="gh-foot gh-outer">
-    <div class="gh-foot-inner gh-inner">
-        <nav class="gh-foot-menu">
-            <ul class="nav">
-    <li class="nav-contact"><a href="https://www.lrnjulie.com/contact/">Contact</a></li>
-</ul>
+			
+						<div id="third" class="widget-area" role="complementary">
+				<aside id="text-2" class="widget widget_text">			<div class="textwidget"><a href="https://web.archive.org/web/20140422020859/http://thedeepwebtour.com/">deep web tour dates</a></div>
+		</aside>			</div><!-- #third .widget-area -->
+					</div><!-- #footer-widgets -->
 
-        </nav>
+		
+		<div class="site-info">
+						<a href="https://web.archive.org/web/20140422020859/http://wordpress.org/" title="A Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>.
+			Theme: Full Frame by <a href="https://web.archive.org/web/20140422020859/http://graphpaperpress.com/" rel="designer">Graph Paper Press</a>.		</div><!-- .site-info -->
+	</footer><!-- #colophon .site-footer -->
 
-        <div class="gh-copyright">
-                Sugar Coat &copy; 2024. Powered by <a href="https://pornhub.com" target="_blank" rel="noopener">love.</a> <a href="modestosunsets.html">𖤓</a>
-        </div>
-    </div>
-</footer>
-</div>
+</div><!-- #page .hfeed .site -->
+
+<script type="text/javascript" src="https://web.archive.org/web/20140422020859js_/http://blog.thedeepwebtour.com/wp-content/themes/deepwebtour/js/scripts.js?ver=20120204"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20140422020859js_/http://blog.thedeepwebtour.com/wp-content/themes/deepwebtour/js/deepwebtour.js?ver=20140327"></script>
+
+<link href="//web.archive.org/web/20140422020859cs_/http://vjs.zencdn.net/4.5/video-js.css" rel="stylesheet">
+<script src="//web.archive.org/web/20140422020859js_/http://vjs.zencdn.net/4.5/video.js"></script>
 
 
-<script src="https://www.lrnjulie.com/assets/built/main.min.js?v=a8a51f4fed"></script>
-
-
-
-</body>
-
-</html>
+</body><div id="detach-button-host" style="top: 86px; left: 227px;"></div></html>
