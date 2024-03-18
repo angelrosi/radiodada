@@ -2231,7 +2231,7 @@ If you need any further help, ask in the CSS Customization forum.
 	bottom: 30px;
 }
 
-/* iframe[name=google_conversion_frame] 
+iframe[name=google_conversion_frame] 
 {
     display: none !important;
-} */
+}
