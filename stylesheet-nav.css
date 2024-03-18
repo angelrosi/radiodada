@@ -1,7 +1,10 @@
 nav {
   background-color: #333;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -23,4 +26,8 @@ li a {
 
 li a:hover {
   background-color: #555;
+}
+
+.content {
+  padding-top: 50px; /* Adjust this value to ensure content isn't hidden by the fixed navigation bar */
 }
