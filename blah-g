@@ -1,1 +1,75 @@
+<html lang="en-US" data-lt-installed="true">
+<head>
+	<link rel="stylesheet" id="full-frame-style-css" href="stylesheet.css" type="text/css" media="all">
+	<link rel="stylesheet" id="full-frame-style-css" href="stylesheet-nav.css" type="text/css" media="all">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SÜGAR COAT</title>
+</head>
+<body class="home blog custom-background has-header-image">
+<nav id="navbar">
+	<div class="menu-toggle">&#9776;</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="blah-g">Blahg</a></li>
+    <li><a href="noises">Noises</a></li>
+    <li><a href="contact">Contact</a></li>
+  </ul>
+</nav>
+	
+<div id="page" class="hfeed site">
+<div id="primary" class="content-area">
+<div id="primary-inner" class="content-area-inner">
+	
+<!-- POSTS START (OR END DEPENDING ON HOW U LOOK AT IT) -------------------------------------------------------------------------------->
+	
+<!-- START Post 5 ------------------------------------------------------------------------------------------------------------------------>
+<article id="post-5" style="background-image: url(photos/testing/skittles.JPG);" class="post-139 post type-post status-publish format-image hentry category-center category-uncategorized  has-featured-image">
+	<div class="entry-inner">Testing to see what this text looks like and where it shows up. </div>
+</article>
+<!-- END Post 5 -->
+		
+<!-- START Post 4 ------------------------------------------------------------------------------------------------------------------------>
+<article id="post-4" style="background-image: url(photos/testing/easytofind.JPG);" class="post-139 post type-post status-publish format-image hentry category-center category-uncategorized  has-featured-image">
+	<div class="entry-inner"></div>
+</article>
+<!-- END Post 4 -->
+		
+<!-- START Post 3 ------------------------------------------------------------------------------------------------------------------------>
+<article id="post-5" style="background-image: url(photos/testing/IMG_4080.jpeg);" class="post-139 post type-post status-publish format-image hentry category-center category-uncategorized  has-featured-image">
+	<div class="entry-inner"></div>
+</article>
+<!-- END Post 3 -->
+		
+<!-- START Post 2 -->
+<article id="post-2" class="post-2 post type-post status-publish format-standard hentry category-uncategorized text-left" style="background-image: url(photos/nala/IMG_20240315_224530.jpg);">
+        <div class="entry-inner">
+        	<header class="entry-header">
+			<h1 class="entry-title"></h1>
+        	</header>
+	<div class="entry-content">
+		<p class="p1"><span style="font-family: 'Courier New', monospace; line-height: 1.5em;">We're really doing this.</span></p>
+	<div style="font-family: 'Courier New', monospace;">
+		<p class="p2">It is good for us to have the project moving in some sort of direction. Like a plant bending towards light. </p>
+		<p>Sugar-coat.</p>
+		<p>That's what we’ll call it for now. Mmmm, sugar coated. Only good in moderation. It has a nice ring to it. Tascam Salida, Concha, Here with potential, Scaffolding, Snail on a slope, Plum Mummy, & Baume might make the cut some other time. For now it’s Sugar-coat. Here’s some lil songs</p>
+	</div>
+        </div>
+   	</div>
+</article>
+<!-- END Post 2 -->
+		
+<!-- START Post 1 ------------------------------------------------------------------------------------------------------------------------>
+<article id="post-5" style="background-image: url(photos/testing/IMG_6656.jpg);" class="post-139 post type-post status-publish format-image hentry category-center category-uncategorized  has-featured-image">
+	<div class="entry-inner"></div>
+</article>
+<!-- END Post 1 -->
+	
+<!-- POSTS END (OR START DEPENDING ON HOW U LOOK AT IT) -------------------------------------------------------------------------------->
+	
+</div><!-- content-area-inner -->	
+</div><!-- content-area -->
+</div><!-- hfeed site -->
 
+</body>
+</html>
