@@ -5,6 +5,13 @@ nav {
   top: 0;
   z-index: 1000;
 }
+.menu-toggle {
+  display: none;
+  color: white;
+  float: right;
+  padding: 10px 20px;
+  cursor: pointer;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -30,4 +37,27 @@ li a:hover {
 
 .content {
   padding-top: 50px; /* Adjust this value to ensure content isn't hidden by the fixed navigation bar */
+}
+@media screen and (max-width: 600px) {
+  .menu-toggle {
+    display: block;
+  }
+  ul {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #333;
+  }
+  ul li {
+    width: 100%;
+    text-align: center;
+  }
+  ul li a {
+    padding: 10px 0;
+  }
+  ul.show {
+    display: block;
+  }
 }
