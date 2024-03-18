@@ -110,6 +110,13 @@
 .iconochive-Cassette:before{content:"\1f4fc"}
 .iconochive-Shuffle:before{content:"\1f500"}
 .iconochive-Loop:before{content:"\1f501"}
+
+@font-face {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Mono'), local('PTMono-Regular'), url(https://web.archive.org/web/20140422162248im_/http://themes.googleusercontent.com/static/fonts/ptmono/v2/RTA0Dhj_HESY0h-ax44VkwLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
 .iconochive-Low_Audio:before{content:"\1f509"}
 .iconochive-First:before{content:"\1f396"}
 .iconochive-Invisible:before{content:"\1f576"}
