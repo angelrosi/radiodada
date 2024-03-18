@@ -812,3 +812,7 @@ body.page .nobg header.entry-header {
 .infinite-scroll.neverending .infinite-loader {
 	margin-bottom: 56px;
 }
+iframe[name=google_conversion_frame] 
+{
+    display: none !important;
+}
