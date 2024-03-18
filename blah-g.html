@@ -66,4 +66,23 @@
 </div><!-- hfeed site -->
 
 </body>
+	
+window.addEventListener('scroll', function() {
+    var navbar = document.getElementById('navbar');
+    if (window.scrollY > 0) {
+        navbar.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.1)';
+    } else {
+        navbar.style.boxShadow = 'none';
+    }
+});
+
+document.getElementById('menu-toggle').addEventListener('click', function() {
+    var navLinks = document.getElementById('nav-links');
+    if (navLinks.style.display === 'block') {
+        navLinks.style.display = 'none';
+    } else {
+        navLinks.style.display = 'block';
+    }
+});
+	
 </html>
