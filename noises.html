@@ -40,3 +40,53 @@
     </script>
   </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" id="full-frame-style-css" href="stylesheet-nav.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>SÜGAR COAT</title>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo"><a href="https://angelrosi.github.io/radiodada/">SÜGAR COAT</a></div>
+      <ul class="links">
+        <li><a href="noises.html">noise</a></li>
+        <li><a href="blog.html">blog</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li><a href="bandcamp.html">music</a></li> <!-- Link to Bandcamp -->
+      </ul>
+      <a href="#" class="action_btn">Don't Click</a>
+      <div class="toggle_btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+    <div class="dropdown_menu">
+      <li><a href="noises.html">noise</a></li>
+      <li><a href="blog.html">blog</a></li>
+      <li><a href="contact.html">contact</a></li>
+      <li><a href="bandcamp.html">music</a></li> <!-- Link to Bandcamp -->
+    </div>
+  </header>
+
+  <!-- Bar with link to Bandcamp -->
+  <div style="background-color: #333; color: white; text-align: center; padding: 10px;">
+    <a href="https://bandcamp.com" style="color: white; text-decoration: none;">Click here for music</a>
+  </div>
+
+  <script>
+    const toggleBtn = document.querySelector('.toggle_btn')
+    const toggleBtnIcon = document.querySelector('.toggle_btn i')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+
+    toggleBtn.onclick = function () {
+      dropDownMenu.classList.toggle('open')
+      const isOpen = dropDownMenu.classList.contains('open')
+    }
+  </script>
+</body>
+</html>
