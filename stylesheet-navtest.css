@@ -76,7 +76,7 @@ header{
   top: 60px;
   height: 0;
   width: 300px;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(255, 236, 153, 0.5);
   backdrop-filter: blur(15px);
   border-radius: 10px;
   overflow: hidden;
