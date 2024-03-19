@@ -5,13 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>SÜGAR COAT</title>
    	 <script>
-		 document.getElementById('menu-toggle').addEventListener('click', function() {
+	document.getElementById('menu-toggle').addEventListener('click', function() {
     var navLinks = document.getElementById('nav-links');
-    if (navLinks.style.display === 'block') {
-        navLinks.style.display = 'none';
-    } else {
-        navLinks.style.display = 'block';
-    }
+    navLinks.classList.toggle('show');
 });
     	</script>
 
