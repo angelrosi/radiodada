@@ -29,14 +29,12 @@ header{
 .navbar{
   width: 100%;
   height: 60px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  top: 0;
-  z-index: 1000;
-  background:rgba(248, 226, 177,0.95)
 }
 .navbar li {
   display: inline;
@@ -101,8 +99,9 @@ header{
 }
 
 .dropdown_menu.open{
-  height: 150px;
+  height: 160px;
 }
+
 
 .dropdown_menu li {
   padding: 0.7rem;
@@ -110,7 +109,6 @@ header{
   align-item: center;
   justify-content: center;
 }
-
 .dropdown_menu .action_btn {
   width: 100%;
   display: flex;
