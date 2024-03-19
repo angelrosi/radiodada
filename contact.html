@@ -19,7 +19,30 @@
         </ul>
         <a href="#" class="action_btn">Don't Click</a>
         <div class="toggle_btn">
+          <i>*</i>
         </div>
+      </div>
+      <div class="dropdown_menu">
+        <li><a href="https://angelrosi.github.io/radiodada/">home</a></li>
+        <li><a href="noises.html">noise</a></li>
+        <li><a href="blog.html">...</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li><a href="#" class="action_btn">Don't Click</a></li>
+      </div>
     </header>
+    <main>
+      
+    </main>
+    <script>
+      const toggleBtn = document.querySelector('.toggle_btn')
+      const toggleBtnIcon = document.querySelector('.toggle_btn i')
+      const dropDownMenu = document.querySelector('.dropdown_menu')
+
+      toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle('open')
+        const isOpen = dropDownMenu.classList.contains('open')
+
+      }
+    </script>
   </body>
 </html>
