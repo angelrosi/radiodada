@@ -37,6 +37,7 @@ header{
   position: fixed;
   top: 0;
   z-index: 1000;
+  background:rgba(248, 226, 177,0.9)
 }
 .navbar li {
   display: inline;
