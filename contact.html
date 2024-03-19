@@ -28,11 +28,7 @@
         <li><a href="contact.html">contact</a></li>
       </div>
     </header>
-    <div class="content">
-      hmu (209)605-1760
-      <br>
-      -Mario
-    </div>
+    
     <script>
       const toggleBtn = document.querySelector('.toggle_btn')
       const toggleBtnIcon = document.querySelector('.toggle_btn i')
@@ -41,7 +37,10 @@
       toggleBtn.onclick = function () {
         dropDownMenu.classList.toggle('open')
         const isOpen = dropDownMenu.classList.contains('open')
-        
+
+        toggleBtnIcon.classList = isOpen
+          ? 'fa-solid fa-xmark'
+          : 'fa-solid fa-bars'
       }
     </script>
   </body>
