@@ -105,13 +105,13 @@ header{
   height: 150px;
 }
 
-
 .dropdown_menu li {
   padding: 0.7rem;
   display: flex;
   align-item: center;
   justify-content: center;
 }
+
 .dropdown_menu .action_btn {
   width: 100%;
   display: flex;
