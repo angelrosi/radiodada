@@ -1,28 +1,44 @@
 <html lang="en-US" data-lt-installed="true">
 <head>
-	<link rel="stylesheet" id="full-frame-style-css" href="stylesheet.css" type="text/css" media="all">
-	<link rel="stylesheet" id="full-frame-style-css" href="stylesheet-nav.css" type="text/css" media="all">
+	<link rel="stylesheet" id="full-frame-style-css" href="stylesheet-navtest.css" type="text/css" media="all">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>SÜGAR COAT</title>
+   	 <script>
+        window.addEventListener('scroll', function() {
+            var navbar = document.getElementById('navbar');
+            if (window.scrollY > 0) {
+                navbar.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.1)';
+            } else {
+                navbar.style.boxShadow = 'none';
+            }
+        });
+
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            var navLinks = document.getElementById('nav-links');
+            if (navLinks.style.display === 'block') {
+                navLinks.style.display = 'none';
+            } else {
+                navLinks.style.display = 'block';
+            }
+        });
+    	</script>
+
+
 </head>
 <body class="home blog custom-background has-header-image">
-<nav id="navbar">
-	<div class="menu-toggle">&#9776;</div>
-  <ul>
-    <li><a href="https://angelrosi.github.io/radiodada/">home</a></li>
-    <li><a href="blah-g.html">blahg</a></li>
-    <li><a href="noises.html">noises</a></li>
-    <li><a href="contact.html">contact</a></li>
-  </ul>
+<nav class="navbar" id="navbar">
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
 </nav>
 	
 <div id="page" class="hfeed site">
-<div id="primary" class="content-area">
-<div id="primary-inner" class="content-area-inner">
-		
-</div><!-- content-area-inner -->	
-</div><!-- content-area -->
+Content.
 </div><!-- hfeed site -->
 
 </body>
