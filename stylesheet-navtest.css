@@ -35,9 +35,23 @@ header{
   align-items: center;
   justify-content: space-between;
 }
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
 .navbar .logo a{
   font-size: 1.5rem;
   font-weight: bold;
+}
+.navbar a{
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+.content {
+  padding-top: 60px;
 }
 .navbar .links{
   display: flex;
