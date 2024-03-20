@@ -832,35 +832,11 @@ li.feed a:before {
 	overflow: scroll;
     	position: relative;
 	width: 100%;
-    	height: auto;
+	height: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
-	background-position: center center;
-}
-.hentry-vert {
-	background-repeat: no-repeat;
-	overflow: scroll;
-    	position: relative;
-    	width: auto;
-    	height: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-position: center center;
-}
-.hentry-hor {
-	background-repeat: no-repeat;
-	overflow: scroll;
-    	position: relative;
-    	width: 100%;
-    	height: auto;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background-size: 100% auto;
 	background-position: center center;
 }
 .hentry.imgcontain {
