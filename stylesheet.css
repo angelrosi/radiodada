@@ -837,7 +837,7 @@ li.feed a:before {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: 100% auto;
-	background-position: center center;
+	background-position: center;
 }
 .hentry.imgcontain {
 	-webkit-background-size: contain;
@@ -1957,7 +1957,7 @@ h1 {
 }
 .hentry {
 	background-attachment: fixed;
-	background-position: top center;
+	background-position: center;
 }
 .home .entry-inner,
 .blog .entry-inner,
